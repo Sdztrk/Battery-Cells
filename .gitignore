@@ -1,0 +1,78 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build directories
+dist/
+build/
+out/
+target/
+
+# System files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+*.swp            # Vim
+.idea/           # IntelliJ-based IDEs
+.vscode/         # VS Code settings
+*.sublime-*      # Sublime Text files
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Compiled files and artifacts
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Java
+*.jar
+*.war
+*.ear
+
+# Ruby
+*.gem
+.bundle/
+
+# PHP Composer
+/vendor/
+
+# Rust
+/target/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Ignore specific file types
+*.out
+*.log
+*.log.*
+
+# Coverage reports
+coverage/
+*.lcov
